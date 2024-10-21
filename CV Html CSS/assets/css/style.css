@@ -1,0 +1,182 @@
+/* /////Import///// */
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* /////All///// */
+
+*{
+    box-sizing: border-box; 
+    margin-left: 1.5rem; 
+    margin-right: 1.5rem; 
+}
+
+h1, h2, h3{
+    font-family: "Lato";
+}
+
+ul, p, a{
+    font-family: "Raleway";
+}
+
+/* /////Body///// */
+
+body{
+    border-left: 5rem solid #f3f3f3; 
+    border-right: 5rem solid #f3f3f3; 
+    margin-left: -1.5rem; 
+    margin-right: -1.5rem;
+}
+/*/////Header///// */
+
+header{
+    background-color: #17abb3;
+    color: white;
+    padding: 3rem;
+    margin-top: -2rem;
+    margin-left: 0rem; 
+    margin-right: 0rem; 
+    text-align: center;
+}
+
+.tete h1{
+    font-size: 60px;
+    margin-left: 35rem;
+    margin-top: auto;
+    margin-bottom: 4rem;
+}
+
+.tete h2{
+    font-size: 27px;
+    word-spacing: 0.5rem;
+    margin-left: 36rem;
+    margin-top: -3.5rem;
+}
+
+.tete img[id="photo"] {
+    border: 6px solid;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    margin-right: 75rem;
+    margin-top: -7rem;
+}
+
+/*/////Info///// */
+
+.info{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-left: 830px;
+    margin-right: 270px;
+    margin-top: -90px;
+}
+
+.info a{
+    flex-grow: 1;
+    text-decoration: none;
+    padding-top: 10px;
+    color: white;
+}
+
+.info p{
+    flex-grow: 1;
+    color: white;
+}
+
+.info img{
+    width: 25px;
+    height: 25px;
+}
+
+
+
+/*/////Main///// */
+
+main h3{
+    color: #17abb3;
+    font-size: 25px;
+}
+
+.gauche{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #e3e3e3;
+    background-color: #e3e3e3;
+    margin-top: -1px;
+    margin-left: -48px;
+    margin-right: 1150px;
+}
+
+.gauche .compétence p{
+    word-spacing: 250px;
+    flex-wrap: nowrap;
+}
+
+.gauche .langues p{
+    word-spacing: 200px;
+}
+
+.gauche ul{
+    list-style-type: square;
+    color: black
+}
+
+.droite{
+    display: flex;
+    justify-content: right;
+    flex-direction: column;
+    border: 1px solid white;
+    margin-left: 496px;
+    margin-right: -48px;
+    margin-top: -1107px;
+}
+
+.droite .profil p{
+    text-indent: 30px
+}
+
+.droite .formations .date{
+    color: #17abb3;
+}
+
+.formations p:hover{
+    border: 1px solid;
+    background-color: #e3e3e3;
+}
+
+.stages p:hover{
+    border: 1px solid;
+    background-color: #e3e3e3;
+}
+
+.droite .stages .date{
+    color: #17abb3;
+}
+
+/*/////Footer///// */
+
+footer{
+    background-color: #17abb3;
+    color: white;
+    padding: 1.5rem;
+    margin-left: 0rem; 
+    margin-right: 0rem; 
+    margin-bottom: 0rem;
+    text-align: center;
+}
+
+footer p{
+    font-style: italic;
+}
+
+footer img{
+    width: 25px;
+    height: 25px;
+}
+
+footer a:hover{
+    opacity: 60%;
+}
